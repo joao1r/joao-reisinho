@@ -1,0 +1,14 @@
+Algoritmo "par impar"
+// Autor(a)    : João Reisinho
+// Data atual  : 28/09/2017
+Var
+numero : real
+Inicio
+escreva ("Qual é o numero?")
+leia(numero)
+se (numero mod 2 = 0 ) entao
+escreva ("O numero", numero, "é par.")
+senao
+escreva ("O numero", numero, "é impar.")
+fimse
+Fimalgoritmo
